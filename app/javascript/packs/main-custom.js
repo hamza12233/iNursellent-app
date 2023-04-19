@@ -1,5 +1,5 @@
 
-// import 'owl.carousel'
+console.log("cddscdd");
 // $('.signup-slider').owlCarousel({
 //     loop:true,
 //     margin:0,
@@ -265,7 +265,7 @@ $(document).ready(function() {
 $('#multi-country-select-btn').click(function () {
     $('.countries-menu').slideToggle();
 })
-  
+    
 
 $(document).ready(function(){
     $('.nclex-yes').click(function(){ 

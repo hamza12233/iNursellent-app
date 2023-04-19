@@ -7,8 +7,9 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import 'bootstrap'; 
-import "./main-custom";
 import "channels";
+// import 'owl.carousel';
+import "./main-custom";
 
 Rails.start()
 Turbolinks.start()
