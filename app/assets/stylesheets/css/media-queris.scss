@@ -1,0 +1,190 @@
+@media only screen and (max-width:1200px){
+    .header_links .link_item .nav-link{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .header_links{
+        display: none;
+    }
+    .header .navbar-toggler{
+        display: block;
+    }
+}
+@media only screen and (max-width:992px){
+    .sign_in_left{
+        display: none;
+    }
+    .sign_in_right{
+        width: 100%;
+    }
+    .home_tab_content, .tabform{
+        padding: 30px;
+    }
+}
+@media only screen and (max-width:768px){
+    .signin-right{
+        max-height: unset;
+    }
+    .user-nav {
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width:600px){
+    .signin-right{
+        padding: 30px 15px;
+        overflow-y: unset;
+    }
+    .sidebar {
+        display: none;
+    }
+    .input__wrap h3{
+        font-size: 20px;
+    }
+    .close-icon{
+        right: 10px;
+    }
+    .count{
+        font-size: 30px;
+    }
+    .side_by_img_size{
+        height: 330px;
+    }
+    .heading-h3{
+        font-size: 35px;
+    }
+    .banner_content p{
+        font-size: 20px;
+    }
+    .banner_content h1{
+        font-size: 45px;
+    }
+    .home_tab_content, .tabform{
+        padding: 25px 10px;
+    }
+    .home_tab_content h3, .tabform h3{
+        font-size: 25px;
+    }
+    .home_tab_content .count, .tabform .count{
+        font-size: var(--theme-font16);
+    }
+    .get-started_btns a{
+        font-size: 16px;
+    }
+    .step-info{
+        font-size: var(--theme-font16);
+    }
+    .signin-right h2{
+        font-size: 22px;
+    }
+    .info-title{
+        font-size: var(--theme-font16);
+    }
+    .signin-right {
+        max-height: unset;
+    }
+    .h-98{
+        height: 98% !important;
+    }
+    .h-96{
+        height: 96% !important;
+    }
+    .back-icon .close-icon{
+        left: 0;
+        top: 0;
+    }
+    .sign_up_Pi.back-icon .close-icon{
+        left: -6px;
+        top: -18px;
+    }
+    .sign_up_Pi.back-icon .close-icon {
+        left: -7px;
+        top: -23px;
+    }
+    .sign_up_step_5.back-icon .close-icon,
+    .sign_up_Qi.back-icon .close-icon, 
+    .sign_up_step_9.back-icon .close-icon,
+    .sign_up_profile.back-icon .close-icon,
+    .sign_up_step_13.back-icon .close-icon,
+    .sign_up_countries.back-icon .close-icon
+     {
+        left: -5px;
+        top: -19px;
+    }
+    .input_group_wrap>div{
+        width: 100% !important;
+    }
+    .hospitals_worked_wrap{
+        flex-direction: column;
+    }
+    .hospitals_worked_wrap .input_for_hospital,
+    .hospitals_worked_wrap .input_for_dates{
+        width: 100% !important;
+    }
+    .worked-hospitls{
+        padding-top: 40px;
+    }
+    .quik-question-ask_head_title{
+        width: 20%;
+        gap: 10px;
+    }
+    .quik-question_anwser{
+        width: 20%;
+        gap: 10px;
+    }
+    .quik-question_anwser>div{
+        min-width: auto;
+    }
+    .quik-question-ask_head_title>div{
+        min-width: auto;
+    }
+    .quik-question{
+        width: 90%;
+    }
+    .sign_up_compeleted.back-icon .close-icon {
+        left: -5px;
+        top: -17px;
+    }
+    .required_documents{
+        max-height: unset;
+    }
+    .required_documents .file-upload{
+        flex-direction: column  ;
+    }
+    .required_documents .file-upload label{
+        width: 100%;
+    }
+    .required_documents .file-upload .file-name{
+        width: 100%;
+    }
+    .document-btn{
+        line-height: 25px;
+    }
+    .Upload-document-wrap .file-upload{
+        flex-direction: column;
+    }
+    .Upload-document-wrap .file-upload label{
+        width: 100%;
+    }
+    .Upload-document-wrap .file-upload .file-name{
+        width: 100%;
+    }
+    .reference_screen .input__wrap{
+        max-height: unset;
+    }
+}
+@media only screen and (max-width:425px){
+    .side_by_img_size img{
+        height: 100%;
+    }
+    .get-started .nav-tabs .nav-link{
+        font-size: var(--theme-font16);
+    }
+}
+@media (min-width: 240px) and (max-width: 479px) {
+    .login-form-head,
+    .login-form-body {
+        padding: 40px 20px;
+    }
+}
