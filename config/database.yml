@@ -20,10 +20,15 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  # host: <%= ENV.fetch('INURSELLENT_DATABASE_HOST', 'localhost') %>
+  port: <%= ENV.fetch("INURSELLENT_DATABASE_PORT") { '5432' } %>
+
 
 development:
   <<: *default
-  database: NursWorks_development
+  username: <%= ENV["INURSELLENT_DATABASE_USERNAME"] %>
+  database: iNursellent_development
+  password: <%= ENV["INURSELLENT_DATABASE_PASSWORD"] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
